@@ -1,0 +1,17 @@
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+
+/* src/components/App.scss */
+
+.app-container {
+  text-align: center;
+
+  h1 {
+    color: #333;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+}
