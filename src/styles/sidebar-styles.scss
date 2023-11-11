@@ -1,0 +1,40 @@
+/* YourComponent.css */
+
+.custom-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-dropdown {
+  position: relative;
+}
+
+.custom-dropdown .nav-link {
+  padding: 15px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.custom-dropdown .nav-link:hover {
+  background-color: #f8f9fa;
+}
+
+.custom-dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-dropdown:hover .dropdown-menu {
+  display: block;
+  // background-color: black;
+  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
